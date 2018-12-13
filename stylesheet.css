@@ -1,0 +1,114 @@
+#box {
+
+  width: 1000px;
+  margin: 15px;
+  padding: 15px;
+  word-wrap: break-word;
+  float: left;
+  margin-left: 20px;
+  background-color: gray;
+  border: 1px solid #000;
+  box-shadow: 8px 8px 20px;
+
+}
+
+
+
+#kop1{
+  width: 105px;
+  margin-top: -27px;
+  margin-left: 10px;
+  background: white;
+  border: 1px solid #000;
+    box-shadow: 8px 8px 30px;
+}
+
+#box2 {
+  width: 1000px;
+  margin: 15px;
+  padding: 15px;
+  word-wrap: break-word;
+  float: left;
+  margin-left: 20px;
+  background-color: gray;
+  border: 1px solid #000;
+    box-shadow: 8px 8px 20px;
+}
+
+#kop2 {
+  width: 112px;
+  margin-top: -27px;
+  margin-left: 10px;
+  background: white;
+  border: 1px solid #000;
+    box-shadow: 8px 8px 30px;
+}
+
+#box3 {
+  width: 1000px;
+  margin: 15px;
+  padding: 15px;
+  word-wrap: break-word;
+  float: left;
+  margin-left: 20px;
+  background-color: gray;
+  border: 1px solid #000;
+    box-shadow: 8px 8px 20px;
+}
+
+#kop3 {
+  width: 155px;
+  margin-top: -27px;
+  margin-left: 10px;
+  background: white;
+  border: 1px solid #000;
+    box-shadow: 8px 8px 30px;
+}
+
+#tekst {
+  width: 300px;
+  margin-top: -27px;
+  margin-left: 25px;
+  background: white;
+}
+
+#box4 {
+  width: 400px;
+  margin: 15px;
+  padding: 50px;
+  word-wrap: break-word;
+  float: left;
+  margin-left: 20px;
+  background-color: gray;
+  border: 1px solid #000;
+    box-shadow: 8px 8px 20px;
+
+}
+
+#kop4 {
+  width: 120px;
+  margin-top: -63px;
+  margin-left: -27px;
+  background: white;
+  border: 1px solid #000;
+    box-shadow: 8px 8px 30px;
+}
+
+#button {
+  width: 120px;
+  margin-top: -63px;
+  margin-left: 20px;
+  background: lightgray;
+
+}
+
+
+
+#validatie img {
+    height: 1,5em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+    margin-left: 20px;
+
+}
