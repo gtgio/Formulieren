@@ -15,69 +15,65 @@
 <p>Om een eerste stap te zetten naar een persoonlijk opleidingplan zul je eerst een paar vragen voor jezelf moeten beantoorden. Dit formulier helpt jou daar bij.</p>
 
 <label for="naam">
-  Naam: <input type = "text" name="naam" required>
+  Naam: <input id="naam" type = "text" name="naam" required>
 </label>
 <label for="klas">
-  <select name="klas">
+  <select name="klas" id="klas">
      <option value="Selecteer je klas" selected>Selecteer je klas</option>
-   </label>
-     <label for="mg1a">MG1A</label>
-     <option value="MG1A">MG1A</option>
-     <label for="mg1b">MG1B</label>
-     <option value="MG1B">MG1B</option>
-     <label for="mg1c">MG1C</label>
-     <option value="MG1C">MG1C</option>
-     <label for="mg1d">MG1D</label>
-     <option value="MG1D">MG1D</option>
+
+     <option  value="MG1A">MG1A</option>
+
+     <option id="mg1b" value="MG1B weg ermee">MG1B</option>
+
+     <option id="mg1c" value="MG1C">MG1C</option>
+
+     <option id="mg1d" value="MG1D">MG1D</option>
  </select>
+</label>
  <br>
  <br>
  <div id="box">
    <h3 id="kop1">welbevinden</h3>
    <p>Hoe positief ben je op dit moment over je opleiding?</p>
-   <label for="positief">
-   <input type="radio" name="positief" value="0"> 0
-   <input type="radio" name="positief" value="1"> 1
-   <input type="radio" name="positief" value="2"> 2
-   <input type="radio" name="positief" value="3"> 3
-   <input type="radio" name="positief" value="4"> 4
-   <input type="radio" name="positief" value="5"> 5
-   <input type="radio" name="positief" value="6"> 6
-   <input type="radio" name="positief" value="7"> 7
-   <input type="radio" name="positief" value="8"> 8
-   <input type="radio" name="positief" value="9"> 9
-   <input type="radio" name="positief" value="10"> 10
- </label>
+   <label><input type="radio" name="positief" value="0">0</label>
+   <label><input type="radio" name="positief" value="1">1</label>
+   <label><input type="radio" name="positief" value="2">2</label>
+   <label><input type="radio" name="positief" value="3">3</label>
+   <label><input type="radio" name="positief" value="4">4</label>
+   <label><input type="radio" name="positief" value="5">5</label>
+   <label><input type="radio" name="positief" value="6">6</label>
+   <label><input type="radio" name="positief" value="7">7</label>
+   <label><input type="radio" name="positief" value="8">8</label>
+   <label><input type="radio" name="positief" value="9">9</label>
+   <label><input type="radio" name="positief" value="10">10</label>
 
-<label for="motivatie">
+
    <p>Hoe gemotiveerd ben je momenteel om de opleiding af te maken?</p>
-   <input type="radio" name="motivatie" value="0"> 0
-   <input type="radio" name="motivatie" value="1"> 1
-   <input type="radio" name="motivatie" value="2"> 2
-   <input type="radio" name="motivatie" value="3"> 3
-   <input type="radio" name="motivatie" value="4"> 4
-   <input type="radio" name="motivatie" value="5"> 5
-   <input type="radio" name="motivatie" value="6"> 6
-   <input type="radio" name="motivatie" value="7"> 7
-   <input type="radio" name="motivatie" value="8"> 8
-   <input type="radio" name="motivatie" value="9"> 9
-   <input type="radio" name="motivatie" value="10"> 10
- </label>
+   <label><input type="radio" name="motivatie" value="0">0</label>
+   <label><input type="radio" name="motivatie" value="1">1</label>
+   <label><input type="radio" name="motivatie" value="2">2</label>
+   <label><input type="radio" name="motivatie" value="3">3</label>
+   <label><input type="radio" name="motivatie" value="4">4</label>
+   <label><input type="radio" name="motivatie" value="5">5</label>
+   <label><input type="radio" name="motivatie" value="6">6</label>
+   <label><input type="radio" name="motivatie" value="7">7</label>
+   <label><input type="radio" name="motivatie" value="8">8</label>
+   <label><input type="radio" name="motivatie" value="9">9</label>
+   <label><input type="radio" name="motivatie" value="10">10</label>
 
-<label for="vertrouwen">
+
    <p>Hoeveel vertrouwen heb je momenteel in je eigen kunnen?</p>
-   <input type="radio" name="vertrouwen" value="0"> 0
-   <input type="radio" name="vertrouwen" value="1"> 1
-   <input type="radio" name="vertrouwen" value="2"> 2
-   <input type="radio" name="vertrouwen" value="3"> 3
-   <input type="radio" name="vertrouwen" value="4"> 4
-   <input type="radio" name="vertrouwen" value="5"> 5
-   <input type="radio" name="vertrouwen" value="6"> 6
-   <input type="radio" name="vertrouwen" value="7"> 7
-   <input type="radio" name="vertrouwen" value="8"> 8
-   <input type="radio" name="vertrouwen" value="9"> 9
-   <input type="radio" name="vertrouwen" value="10"> 10
- </label>
+   <label><input type="radio" name="vertrouwen" value="0">0</label>
+   <label><input type="radio" name="vertrouwen" value="1">1</label>
+   <label><input type="radio" name="vertrouwen" value="2">2</label>
+   <label><input type="radio" name="vertrouwen" value="4">4</label>
+   <label><input type="radio" name="vertrouwen" value="5">5</label>
+   <label><input type="radio" name="vertrouwen" value="6">6</label>
+   <label><input type="radio" name="vertrouwen" value="7">7</label>
+   <label><input type="radio" name="vertrouwen" value="8">8</label>
+   <label><input type="radio" name="vertrouwen" value="9">9</label>
+   <label><input type="radio" name="vertrouwen" value="10">10</label>
+
 
 </div>
  <br>
@@ -90,35 +86,33 @@
  <div id="box2">
    <h3 id="kop2">sterke kanten</h3>
    <p>wat zijn jouw sterke kanten?</p>
-   <label for="sterke_kanten">
-   <input type="checkbox" name="sterke_kanten 1" value="Coderen in HTML/CSS"> Coderen in HTML/CSS<br>
-   <input type="checkbox" name="sterke_kanten 2" value="Programmeren in Java"> Programmeren in Java<br>
-   <input type="checkbox" name="sterke_kanten 3" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript<br>
-   <input type="checkbox" name="sterke_kanten 4" value="planning"> planning<br>
-   <input type="checkbox" name="sterke_kanten 5" value="Samenwerken"> Samenwerken<br>
- </label>
+   <label><input type="checkbox" name="sterke_kanten 1" value="Coderen in HTML/CSS"> Coderen in HTML/CSS<br></label>
+   <label><input type="checkbox" name="sterke_kanten 2" value="Programmeren in Java"> Programmeren in Java<br></label>
+   <label><input type="checkbox" name="sterke_kanten 3" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript<br></label>
+   <label><input type="checkbox" name="sterke_kanten 4" value="planning"> planning<br></label>
+   <label><input type="checkbox" name="sterke_kanten 5" value="Samenwerken"> Samenwerken<br></label>
  </div>
  <br>
  <br>
  <div id="box3">
    <h3 id="kop3">nog te ontwikkelen</h3>
    <p>aan welke skills moet je nog extra aandacht besteden?</p>
-   <label for="aandacht">
-   <input type="checkbox" name="aandacht 1" value="Coderen in HTML/CSS"> Coderen in HTML/CSS<br>
-   <input type="checkbox" name="aandacht 2" value="Programmeren in Java"> Programmeren in Java<br>
-   <input type="checkbox" name="aandacht 3" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript<br>
-   <input type="checkbox" name="aandacht 4" value="planning"> planning<br>
-   <input type="checkbox" name="aandacht 5" value="Samenwerken"> Samenwerken<br>
- </label>
+   <label><input type="checkbox" name="aandacht 1" value="Coderen in HTML/CSS"> Coderen in HTML/CSS<br></label>
+   <label><input type="checkbox" name="aandacht 2" value="Programmeren in Java"> Programmeren in Java<br></label>
+   <label><input type="checkbox" name="aandacht 3" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript<br></label>
+   <label><input type="checkbox" name="aandacht 4" value="planning"> planning<br></label>
+   <label><input type="checkbox" name="aandacht 5" value="Samenwerken"> Samenwerken<br></label>
  </div>
  <br>
  <br>
  <div id="box4">
    <h3 id="kop4">overige vragen</h3>
    <p>Wat zijn jouw plannen voor de toekomst?</p>
+
    <textarea rows="6" cols="50" name="comment"></textarea>
    <br>
    <p>Wat heb je tot nu toe bereikt in je leven?</p>
+   
    <textarea rows="6" cols="50" name="comment"></textarea>
  </div>
 
